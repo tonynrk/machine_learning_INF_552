@@ -28,6 +28,7 @@ Task: Feature Extraction: Classification of time series usually needs extracting
 Binary Classification Using Logistic Regression: Using cross validation to determine the best no. of features, using backward selection algorithm. Learning how to encounter class imbalance. Compare the results with logistic Regression with L1-penalized logistic regression. Also, compare the results between L1- penalized multinomial regression model, and Na ̈ıve Bayes’ classifier (Gaussian and Multinomial priors)
 
 4.)	File: INF_552_Work_Project_04.ipynb
+
 4.a)  Communities and Crime data Communities within the United States. The data combines socio-economic data from the 1990 US Census, law enforcement data from the 1990 US LEMAS survey, and crime data from the 1995 FBI UCR
 
 Task: dealing the missing values, Fit a linear regression model, ridge regression with λ chosen by cross-validation model and Lasso model with list of the variables selected by the model. Fit a PCR model on the training set, with M (the number of principal components) chosen by cross-validation, L1-penalized regression gradient boosting tree, Determine α (the regularization term) using cross-validation 
@@ -37,6 +38,7 @@ Task: dealing the missing values, Fit a linear regression model, ridge regressio
 Task: Train a random forest to classify the data set. Do and don’t compensate for class imbalance in the data set. Using Weka (Java library) to train Logistic Model Trees for classification. Do and don’t compensate for class imbalance in the data set.
 
 5.)	File: INF_552_Work_Project_05.ipynb
+
 5.a) The Anuran Calls (MFCCs) Data Set Acoustic features extracted from syllables of anuran (frogs) calls, including the family, the genus, and the species labels (multilabel).
 
 Task:  Train a SVM for each of the labels, using Gaussian kernels and one versus all classifiers. Determine the weight of the SVM penalty and the width of the Gaussian Kernel using 10 fold cross validation Train. L1-penalized SVMs, remember to standardize the attributes. Determine the weight of the SVM penalty using 10 fold cross validation, using SMOTE or any other method you know to remedy class imbalance.
@@ -45,7 +47,8 @@ Task:  Train a SVM for each of the labels, using Gaussian kernels and one versus
 
 Task: Use k-means clustering on the whole data Set Choose k ∈ {1, 2, . . . , 50} automatically based on Silhouettes method. In each cluster, determine which family is the majority by reading the true labels. Repeat for genus and species. Now for each cluster you have a majority label triplet (family, genus, species). Calculate the average Hamming distance, Hamming score, and Hamming loss between the true labels and the labels assigned by clusters.
 
-6.) File: INF_552_Work_Project_06.ipynb	
+6.) File: INF_552_Work_Project_06.ipynb
+
 6.a) the Breast Cancer Wisconsin (Diagnostic) Data Set, classes (Benign=B, Malignant=M), and 30 attributes
 
 Task: Supervised Learning, Semi-Supervised Learning and unsupervised learning, spectral clustering methods. 
