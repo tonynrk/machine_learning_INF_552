@@ -1,7 +1,7 @@
 # machine_learning_INF_552
 These are Machine Learning INF 552 Work Projects in Summer 2019, USC. The intuition is to understand the concept of Machine learning models and apply then to real-world data.
 
-# Programming Languages
+# Programming Language
 
 Python
 
